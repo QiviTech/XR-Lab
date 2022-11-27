@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{ background:#e5e4e4;}
+.banner{ height:220px;}
+.banner img{ width:1920px; height:220px; position:relative; left:50%; margin-left:-50%;}  
+.content{ width:1200px; margin:0 auto; padding:33px 0 68px !important; overflow:hidden;}
+.content .left{ width:280px; height:734px; background:#fff; float:left; margin:0 0;}
+.content .left h2{ font-weight:normal; font-size:24px; height:61px; line-height:61px; color:#fff; background:#8f000b;}
+.content .left h2 img{ padding:0 13px 0 16px;}
+.content .left #submenu{ padding:14px 0 0; height:642px;  overflow-y:auto;}
+.content .left #submenu .on span{display:block; width:196px; padding-left:51px; line-height:44px; color:#333; cursor:pointer; height:44px; margin: 0 auto 10px; background:#eee url(../images/clear.png) no-repeat 19px center; font-size:16px;}
+.content .left #submenu .on a{ color:#333;}
+.content .left #submenu .on ul li{ font-size:14px; line-height:32px; hieght:32px;}
+.content .left #submenu .on ul li a{ color:#666;} 
+.content .left #submenu .on ul li a:hover{ color:#8f000b;}
+.content .left #submenu .clear span{display:block; width:196px; padding-left:51px; line-height:44px; height:44px; margin: 0 auto 10px; background:#eee url(../images/clear.png) no-repeat 19px center; font-size:16px; color:#333; cursor:pointer;}
+.content .left #submenu .clear a{ color:#333;}
+.content .left #submenu .clear ul{ padding: 0 0 16px 65px; display:none;}
+.content .left #submenu .clear ul li{ font-size:14px; line-height:32px; hieght:32px;}
+.content .left #submenu .clear ul li a{ color:#666;} 
+.content .left #submenu .clear ul li a:hover{ color:#8f000b;}
+.content .left #submenu .on span{ background:#eee url(../images/current.png) no-repeat 19px center; cursor:pointer;  color:#333;}
+.content .left #submenu .on ul{ padding: 0 0 16px 65px; display:block;}
+.content .right{ width:906px; margin: 0 0 0 14px; background:#fff; float:right; min-height:734px;} 
+.content .right ul{margin: 0 25px; overflow:hidden; border-bottom:1px solid #eee;}
+.content .right ul li{ float:left; line-height:60px; height:60px;}
+.content .right ul li a{ color:#666; font-size:14px; padding:0 6px;}
+.content .right ul li a:hover{ color:#8f000b;}
+.content .right ul .current a{ color:#8f000b;}
+.content .right .list ol{ margin: 12px 70px 0; overflow:hidden;}
+.content .right .list ol li img{ width:240px; height:165px; padding:8px 5px 0 10px;}
+.content .right .list ol li{font-size:14px; overflow:hidden; width:255px; height:229px; float:left;}
+.content .right .list ol li a{display:block; margin:10px; color:#666;line-height:18px;}
+.content .right .list ol li a:hover{color:#8f000b;}
+.page{ clear:both; height:26px; text-align:center; overflow:hidden; zoom:1; font-size:14px;line-height:26px; padding:36px 0 35px;}
+.page .now{ color:#fff; font-weight:700; text-decoration:none; color:#293c74;
+border: 1px solid #a6926c;}
+.page b{color:#fff; font-weight:700; text-decoration:none; padding: 8px 14px; margin:0 2px; background:#8f000b;}
+.page span{color:#666; font-weight:700; text-decoration:none; border:#e8d4b9 1px solid; padding: 10px 14px; margin:0 2px;}
+.page a{  color:#666; border:#ccdbe4 1px solid; padding: 8px 14px; margin:0 2px;}
+.page a:hover{ color:#666; text-decoration:underline;}
+ 

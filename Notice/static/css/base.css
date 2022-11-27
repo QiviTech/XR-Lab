@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*reset begin*/
+body, div, ul, li, ol, input, h1, h2, h3, h4, h5, h6, dl, dt, dd, form, p, button {
+	margin: 0;
+	padding: 0;}
+img, button {
+	border: 0;
+	display: block;
+	display: inline;}
+img {
+	vertical-align: middle;}
+ol, ul, dl, li {
+	list-style: none;}
+input {
+	outline: none;
+	border: 0;}
+a:link, a:visited {
+	text-decoration: none;}
+body {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #666;}
+/*reset end*/
+
+/*header begin*/
+.header {
+	width: 100%;
+	background: url(../images/header_bg.png) repeat-x;}
+.header .head {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;}
+.header .head .left {
+	float: left;}
+.header .head .left h1 a {
+	display: block;
+	width: 600px;
+        height: 60px;
+	padding: 35px 0 0 87px;
+	font-weight: normal;
+	color: #fff;
+	font-size: 12px;
+	/*background: url(../images/logo1.png) no-repeat 12px 24px;*/}
+.header .head .left h1 a span {
+	font-size: 22px;
+	display: block;}
+.header .head .right {
+	float: right;
+	width: 330px;
+	overflow: hidden;}
+.header .head .right .search1 {
+	float: left;
+	padding: 35px 19px 34px 0;}
+.header .head .right input {
+	height: 41px;
+        line-height: 41px;
+	width: 224px;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background: #87b0d7;
+	float: left;}
+.header .head .right button {
+	float: left;
+	display: block;
+	width: 41px;
+	height: 41px;
+	background: url(../images/search.png) no-repeat;
+	cursor: pointer;
+        outline:none;}
+/*.header .head .right .login {
+	float: left;
+	padding-right: 5px;
+	color: #fff;
+	padding-top: 49px;
+}
+.header .head .right .login a {
+	font-size: 14px;
+	color: #fff;
+	padding: 0 5px;
+}*/
+.header .wrap {
+	background: #201d1c;}
+.header .wrap .nav {
+	width: 1200px;
+	margin: 0 auto;}
+.header .wrap .nav ul {
+	height:56px;
+        width:1155px;
+        margin:0 auto;}
+.header .wrap .nav ul li {
+	float: left;
+	line-height: 56px;
+	height: 56px;
+	color: #87b0d7;
+        position:relative;}
+.header .wrap .nav ul li .on{color:#fff;}
+.header .wrap .nav ul li a {
+	display: inline-block;
+	padding: 0 14px 0 15px;
+	color: #87b0d7;
+	font-size: 16px;}
+.header .wrap .nav ul li .default{ cursor:default;}
+.header .wrap .nav ul li a:hover{
+       color:#fff;}
+.header .wrap .nav ul li div a{ background: #201d1c; line-height:26px; height:26px;font-size:12px; display: block; padding:0px;}
+.header .wrap .nav ul li div{position:absolute; width:100%; text-align:center; z-index:50; top:56px; left:0px; display:none;}
+/*header end*/
+.footer{ background:#333; padding:60px 0 8px;}
+.footer div{ width:1200px; margin:0 auto; overflow:hidden;}
+.footer dl{ float:left; border-right:1px solid #3d3d3d;}
+.footer .mail{ width:329px; height:168px;}
+.footer .mail dt{ color:#00e0ff; font-size:16px;}
+.footer .mail dt img{ padding-right:17px; width:68px; height:68px;}
+.footer .mail dd p{ font-size:16px; color:#c0c3c4; line-height:64px;} 
+.footer .mail dd img{ width:70px; height:70px; padding:50px 9px 74px 0; margin-top: -13px;}
+.footer .address dt{ color:#d65833; font-size:16px;}
+.footer .address{padding:0 0 60px 0;padding-left:3px; width:250px;}
+.footer .address dt img{ padding-right:17px; width:68px; height:68px;}
+.footer .address dd{padding-top:30px;}
+.footer .address dd p{ font-size:14px; line-height:26px; color:#c0c3c4; padding:0 20px;}
+.footer .address dd p a{ color:#c0c3c4;}
+.footer .contact dt{ color:#c0c3c4; font-size:16px;padding-left:36px;}
+.footer .contact{height:168px; width:290px;}
+.footer .contact dt img{ padding-right:17px; width:68px; height:68px;}
+.footer .contact dd{padding-top:24px;}
+.footer .contact dd ul{ padding-left:27px;}
+.footer .contact dd ul li{ float:left; font-size:14px; width:62px; padding-right:25px; line-height:27px; height:27px;}
+.footer .contact dd ul li a{ color:#c0c3c4;}
+.footer .copyright{padding:0 0 0 10px; border:none;}
+.footer .copyright dt{ padding: 0 0 0px; font-size:14px;}
+.footer .copyright dt img{ padding:19px 0 0;}
+.footer .copyright dd p{ padding:18px 0 0 ;}
